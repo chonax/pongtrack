@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Logo from './Logo/Logo';
+import WelcomeScreen from './WelcomeScreen/WelcomeScreen';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>pOngtracker</h1>
+        <Logo />
+        <WelcomeScreen />
       </div>
     );
   }

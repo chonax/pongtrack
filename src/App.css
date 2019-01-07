@@ -12,3 +12,31 @@ body {
   font-weight: bold;
   margin: 20px;
 }
+
+.LeftBar {
+  display: inline-block;
+  width: 20%;
+  background: #1d68a9;
+  height: 100vh;
+}
+
+.LeftBar button {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: #3a9003;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid #000;
+}
+
+.Main {
+  display: inline-block;
+  width: 80%;
+  height: 100%;
+  vertical-align: top;
+  margin-top: 20px;
+}

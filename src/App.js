@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Logo from './Logo/Logo';
-import WelcomeScreen from './WelcomeScreen/WelcomeScreen';
+import LeftBar from './LeftBar/LeftBar';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Logo />
-        <WelcomeScreen />
+        <LeftBar />
+        <div className="Main">
+          test
+        </div>
       </div>
     );
   }

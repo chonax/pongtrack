@@ -7,9 +7,10 @@ class LeftBar extends Component {
       <div className="LeftBar">
         <Logo />
         <button>New Game</button>
-        <button>Register Game</button>
+        <button>Add Finished Game</button>
         <button>Unfinished Games</button>
-        <button>Player List</button>
+        <button>Top 10 Players</button>
+        <button>All Players</button>
         <button>Register</button>
         <button>Login/Logout</button>
         <button>Profile</button>

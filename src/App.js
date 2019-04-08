@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import LeftBar from './Components/LeftBar/LeftBar';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>pOngtracker</h1>
+        <LeftBar />
+        <div className="main">Hi</div>
       </div>
     );
   }

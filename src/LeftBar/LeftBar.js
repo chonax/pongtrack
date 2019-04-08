@@ -10,7 +10,7 @@ class LeftBar extends Component {
         <button>Add Finished Game</button>
         <button>Unfinished Games</button>
         <button>Top 10 Players</button>
-        <button>All Players</button>
+        <button>Player List</button>
         <button>Register</button>
         <button>Login/Logout</button>
         <button>Profile</button>

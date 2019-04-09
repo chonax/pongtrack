@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from '../Logo/Logo';
+import Logo from '../../Logo/Logo';
 
 class LeftBar extends Component {
   render() {
@@ -9,7 +9,6 @@ class LeftBar extends Component {
         <button>New Game</button>
         <button>Add Finished Game</button>
         <button>Unfinished Games</button>
-        <button>Top 10 Players</button>
         <button>Player List</button>
         <button>Register</button>
         <button>Login/Logout</button>
